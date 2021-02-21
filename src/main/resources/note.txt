@@ -1,0 +1,14 @@
+
+How to call an API Using zuul api gateway
+
+http://localhost:8765/{application-name}/{uri}
+
+To call the currency conversion service
+	http://localhost:8765/currency-conversion-service/currency-conversion-feign/from/USD/to/INR/quantity/500
+
+ex - http://localhost:8765/currency-exchange-service/currency-exchange/from/EUR/to/INR
+
+http://localhost:8000/currency-exchange-service/from/EUR/to/INR
+
+http://localhost:8100/currency-conversion-feign/from/USD/to/INR/quantity/500
+
